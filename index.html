@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.calligraphyqalam.com/wordpress/wp-content/uploads/2021/07/qalam-1.svg"
+    />
+    <title>Qalam</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=IBM Plex Sans Arabic|Noto Naskh Arabic|Noto Sans Arabic|Noto Kufi Arabic|Noto Serif Display|Audiowide|Sofia|Noto Sans Symbols|Noto Sans Simplified Chinese|Noto Sans Traditional Chinese|Noto Serif Traditional Chinese|Noto Serif Simplified Chinese"
+    />
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/faq.css">
+  </head>
+  <body>
+    <main id="root">
+      <div id="header-container">
+        <header id="navbar">
+          <div class="container-fluid all">
+            <!---------------------- navbar start -------------->
+
+            <nav class="navbar navbar-expand-lg sticky-top tnav">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#this"
+              >
+                <span class="navbar-toggler-icon"
+                  ><img src="./assets/image/align-justify.svg" alt=""
+                /></span>
+              </button>
+              <a class="navbar-brand"
+                ><img src="./assets/image/logo.svg" alt="" height="70px"
+              /></a>
+
+              <div class="collapse navbar-collapse" id="this">
+                <ul class="navbar-nav ul1 w-100">
+                  <li class="nav-item">
+                    <a href="index.html" class="btn btn_css nav-link nav-go">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <button 
+                    id="navwood"
+                     class="btn btn_css  nav-go"
+                      data-container-id="#wooden-container"
+                       data-file="wooden.json"
+                       data-section-title="Wooden Frames"
+                       >
+                      Wooden Frames
+                    </button>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle btn"
+                      data-toggle="dropdown"
+                      >Canvas Sets</a
+                    >
+                    <div class="dropdown-menu ml-5 tnavd">
+                      <button
+                       id="navthree"
+                        class="btn dropdown-item  nav-go" 
+                        data-container-id="#three-panel-container"
+                         data-file="three-panel.json"
+                         data-section-title="Three Panel Canvas Sets"
+                         >
+                        Three canvas Sets
+                      </button>
+                      <button id="navfour" class="btn dropdown-item  nav-go" data-container-id="#four-panel-container" data-file="four-panel.json" data-section-title="Four Panels Canvas Set">
+                        Four Canvas Sets
+                      </button>
+                      <button id="navfive" class="btn dropdown-item  nav-go" data-container-id="#five-panel-container" data-file="five-panel.json" data-section-title="Five Panels Canvas Set">
+                        Five Canvas Sets
+                      </button>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="btn nav-link dropdown-toggle btn"
+                      data-toggle="dropdown"
+                      >Fonts</a
+                    >
+                    <div class="dropdown-menu ml-5 tnavd">
+                      <button id="btn_arab" class="btn dropdown-item  nav-go" data-container-id="#arabic-fonts-container">
+                        Arabic Fonts
+                      </button>
+                      <button id="btn_west" class="btn dropdown-item  nav-go" data-container-id="#western-fonts-container">
+                        Western Fonts
+                      </button>
+                      <button id="btn_east" class="btn dropdown-item  nav-go" data-container-id="#east-asian-fonts-container">
+                        East Asian Fonts
+                      </button>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <button id="btn_qalams" class="btn btn_css nav-link nav-go" data-container-id="#qalam-container" data-file="qalam.json" data-section-title="Qalams We Use For Calligraphy">
+                      Qalams
+                    </button>
+                  </li>
+                  <li class="nav-item">
+                    <button id="btn_about" class="btn btn_css nav-go" data-container-id="#about">About Us</button>
+                  </li>
+                  <li class="nav-item">
+                    <button id="btn_faq" class="btn nav-link btn_css nav-go" data-container-id="#faq-container">
+                      FAQ
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <!------------ navbar-end ------->
+
+        <!-- ------- video's formating start  ----- -->
+
+        <section id="video">
+          <video
+            width="100%"
+            id="discover"
+            autoplay
+            muted
+            loop
+            class="video-size"
+          >
+            <source src="./assets/image/v1.mp4" type="video/mp4" />
+          </video>
+
+          <div class="container-fluid">
+            <div class="row" id="vid">
+              <div class="col-lg-12 col-md-12 col-12">
+                <div class="row" id="top">
+                  <div class="col-md-12">
+                    <h1 id="heading">Calligraphy</h1>
+                    <q id="q">
+                      Calligraphy is the kind of music not for the ears but for
+                      the eyes
+                    </q>
+
+                    <p class="vpara w-100">
+                      Art of beautiful, stylized, or elegant handwriting or
+                      lettering with pen or brush and ink. It involves the
+                      correct formation of characters, the ordering of the
+                      various parts, and the harmony of proportions. In the
+                      Islamic and Chinese cultures, calligraphy is as highly
+                      revered as painting.
+                    </p>
+                    <button id="btn1" class="btn">Explore Now...</button>
+                  </div>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+        </section>
+        <!-- video end -->
+      </div>
+      <section id="new-arrivals-container"></section>
+
+      <section id="three-panel-container"></section>
+
+      <section id="four-panel-container"></section>
+
+      <section id="five-panel-container"></section>
+
+      <section id="wooden-container"></section>
+
+      <section id="western-container"></section>
+
+      <section id="east-asian-container"></section>
+
+      <section id="qalam-container"></section>
+
+      <section id="arabic-fonts-container" style="display: none;">
+          <div class="container p-5 mt-5">
+            <h1 class="afonts font1arab text-center">Arabic Fonts</h1>
+            <div class="afontsec row">
+               <div class="font1arab col-md-12 col-sm-12">
+                <p><b>IBM Plex Sans Arabic</b></p>
+                 <h2 class="arabfontlist a1">بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</h2>
+               </div>
+            <div class="font1arab col-md-12 col-sm-12">
+                <p><b>Noto Naskh Arabic</b></p>
+                <h2 class="arabfontlist a2">بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</h2>
+           </div>
+            <div class="font1arab col-md-12 col-sm-12">
+                <p><b>Noto Sans Arabic</b></p>
+                <h2 class="arabfontlist a3">بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</h2>
+            </div>
+            <div class="font1arab col-md-12 col-sm-12">
+                <p><b>Noto Kufi Arabic</b></p>
+                <h2 class="arabfontlist a4">بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</h2></div>
+          </div>
+      
+         </div>
+      </section>
+
+      <section id="western-fonts-container" style="display: none;">
+        <div class="container p-5 mt-5">
+          <h1 class="afonts font1arab text-center">Western Fonts</h1>
+          <div class="afontsec row">
+             <div class="font1arab col-md-12 col-sm-12">
+              <p><b> Noto Serif Display</b></p>
+               <h2 class="arabfontlist w1">If you can dream it, you can do it. </h2>
+             </div>
+          <div class="font1arab col-md-12 col-sm-12">
+              <p><b> Audiowide</b></p>
+              <h2 class="arabfontlist w2">If you can dream it, you can do it.</h2>
+         </div>
+          <div class="font1arab col-md-12 col-sm-12">
+              <p><b>Sofia</b></p>
+              <h2 class="arabfontlist w3">If you can dream it, you can do it.</h2>
+          </div>
+          <div class="font1arab col-md-12 col-sm-12">
+              <p><b>Noto Sans Symbols</b></p>
+              <h2 class="arabfontlist w4 container">If you can dream it, you can do it.</h2>
+            </div>
+        </div>
+      
+       </div>
+      </section>
+
+      <section id="east-asian-fonts-container" style="display: none;">
+        <div class="container p-5 mt-5">
+          <h1 class="afonts font1arab text-center">East Asian Fonts</h1>
+          <div class="afontsec row">
+             <div class="font1arab col-lg-12 col-md-12 col-sm-12">
+              <p><b>Noto Sans Simplified Chinese</b></p>
+               <h2 class="arabfontlist e1">每𠊛調𣎏權𤯨</h2>
+             </div>
+          <div class="font1arab col-lg-12 col-md-12 col-sm-12">
+              <p><b>Noto Sans Traditional Chinese</b></p>
+              <h2 class="arabfontlist e2">每𠊛調𣎏權𤯨</h2>
+         </div>
+          <div class="font1arab col-lg-12 col-md-12 col-sm-12">
+              <p><b>Noto Serif Traditional Chinese</b></p>
+              <h2  class="arabfontlist e3">每𠊛調𣎏權𤯨</h2>
+          </div>
+          <div class="font1arab col-lg-12 col-md-12 col-sm-12">
+              <p><b>Noto Serif Simplified Chinese</b></p>
+              <h2 class="arabfontlist e4">每𠊛調𣎏權𤯨</h2></div>
+        </div>
+      
+       </div>
+      </section>
+      
+
+      <section id="faq-container" style="display: none;">
+        <!-- faq start -->
+  <section id="faq" class="mt-5">
+    <div class="container p-5">
+      <h6 class="h6 text-center text-muted">FAQ's</h6>
+      <h2 class="h2 text-center">Frequently asked questions</h2>
+      <h6 class="h6 text-center text-muted">Have questions? we're here to help you.</h6>
+  </div>
+      <div class="container mt-5 faq_c p-3">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm">
+  <ul class="list-group">
+    <li class="list-group-item fq mt-5" id="no1"><div id="ju">What was the main pupose of calligraphy as an art?
+        <span id="up1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg></span>
+        <span id="dn1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </div>
+        <li class="list-group-item para1" id="para1"><p>Calligraphy aims to produce a reaction, just like any quality piece of sculpture or painting, its goals are to invoke a deeper meaning and communicate with the viewer on both the linguistic and creative level.</p></li>
+    </li>
+    <li class="list-group-item fq mt-5" id="no2"><div id="ju">How does calligraphy influence the world today?
+        <span id="up2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg></span>
+        <span id="dn2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </div>
+        <li class="list-group-item para2" id="para2"><p>The Arabic calligraphy had a great impact in the improvement of arts all over the world, as it has influenced cultures such as Andalusia in Spain and more, plus it has been the main influence in multiple art styles such as the Baroque and Rococo art styles in Europe, and also the fusions resulted from many cultural ...</p></li>
+    </li>
+    <li class="list-group-item fq mt-5" id="no3"><div id="ju">Who first started calligraphy?
+        <span id="up3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg></span>
+        <span id="dn3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </div> 
+        <li class="list-group-item para3" id="para3"><p>The origin of Calligraphy with brushes dates back to ancient China during the Shang dynasty becoming more common during the Han dynasty (206 BCE – 220 CE) where it was expected for all educated men and some women to be proficient at it.</p></li>
+    </li>
+    </ul></div>
+    <div class="col-lg-6 col-md-12 col-sm">
+    <ul>
+        <li class="list-group-item fq mt-5" id="no4"><div id="ju">What are the three main types of caligraphy?
+            <span id="up4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg></span>
+            <span id="dn4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+        </div>
+            <li class="list-group-item para4" id="para4"><p>There are three main types of calligraphy: western, eastern, and Arabic. Each type reflects the language and handwriting of a different region of the world.</p></li>
+        </li>
+    <li class="list-group-item fq mt-5" id="no5"><div id="ju">Why is it called calligraphy?
+        <span id="up5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg></span>
+        <span id="dn5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </div>
+        <li class="list-group-item para5" id="para5"><p>calligraphy, the art of beautiful handwriting. The term may derive from the Greek words for “beauty” (kallos) and “to write” (graphein).</p></li>
+    </li>
+    <li class="list-group-item fq mt-5" id="no6"><div id="ju">Why are people interested in calligraphy?
+        <span id="up6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg></span>
+        <span id="dn6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </div>
+        <li class="list-group-item para6" id="para6"><p>Besides the mental benefits, it's satisfying to create something beautiful and tangible, and there's also something captivating about watching people create videos of their calligraphy. Plus, calligraphy is difficult.</p></li>
+    </li>
+  </ul></div>
+  
+  </div>
+    </div>
+    </section>
+    <!-- faq end -->
+      </section>
+
+      <section id="about" style="display: none;">
+        <div class="container p-5 mt-5">
+            <div class="row">
+                <div class="col-md-12" ><h1 id="heada">Get to know us</h1>
+                <p>Qalam came into being when three students who happened to be aesthetes came together and realised there is endless talent and passion in Pakistan for art but little support for it. From here they embarked on a difficult but rewarding journey to create a platform that would bridge this gap and bring artists and art lovers.
+                  Within just a few months of its existence, Qalam has now over 100 artists onboard from all across the country specializing in acrylics, oils, pastels, calligraphy, landscapes, pop art, digital illustrations, basically every form of art you can think of. 
+                  Qalam is Pakistan’s first online platform that is built for art lovers and artists.Qalam is not a buying and selling site for art but it is an initiative to promote art in Pakistan and make it easily accessible and available to the masses. Our vision is to create a space where local artists find support and encouragement to explore their creativity and talent, and showcase their art to appreciative individuals.
+                   </p>
+               
+                    <video autoplay muted id="vida" loop >
+                        
+                        <source src="./assets/image/western.mp4" type="video/mp4" >
+                    </video>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <div id="footer-container">
+        <!-- footer start -->
+        <footer>
+          <div class="container-fluid foot p-5 mt-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm">
+                  <div class="h3">
+                    <img src="./assets/image/logo.svg" height="80px" alt="" />
+                  </div>
+                  <ul class="unorder_list">
+                    <li class="mt-4 d-flex">
+                      <i><img src="./assets/image/map-pin.svg" alt="" /></i>
+                      <p class="pl-1">Karachi,Pakistan</p>
+                    </li>
+                    <li class="mt-3 d-flex">
+                      <i><img src="./assets/image/mail.svg" alt="" /></i>
+                      <p class="pl-1">contact@gmail.com</p>
+                    </li>
+                    <li class="mt-3 d-flex">
+                      <i><img src="./assets/image/phone.svg" alt="" /></i>
+                      <p class="pl-1">0312 0832 542</p>
+                    </li>
+                    <li class="mt-3 d-flex p-2">
+                      <i><img src="./assets/image/facebook (1).svg" alt="" id="fb" /></i
+                      ><i class="ml-3"
+                        ><img
+                          src="./assets/image/twitter (1).svg"
+                          alt=""
+                          id="twit" /></i
+                      ><i class="ml-3"
+                        ><img src="./assets/image/instagram.svg" alt="" id="insta"
+                      /></i>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm mt-4">
+                  <div class="h6 ml-3">Categories</div>
+                  <ul class="unorder_list">
+                    <li class="mt-5 un_li">
+                      <button class="footer_links btn btn-link nav-go" data-container-id="#wooden-container" data-file="wooden.json" data-section-title="Wooden Frames" id="footerWood">
+                        Wooden frames
+                      </button>
+                    </li>
+                    <li class="mt-3 un_li">
+                      <button class="footer_links btn btn-link nav-go" data-container-id="#five-panel-container" data-file="five-panel.json" data-section-title="Five Panels Canvas Set" id="panelfive">
+                        5-panels canvas set
+                      </button>
+                    </li>
+                    <li class="mt-3 un_li">
+                      <button class="footer_links btn btn-link nav-go" data-container-id="#four-panel-container" data-file="four-panel.json" data-section-title="Four Panels Canvas Set" id="panelfour">
+                        4-panels canvas set
+                      </button>
+                    </li>
+                    <li class="mt-3 un_li">
+                      <button class="footer_links btn btn-link nav-go" data-container-id="#three-panel-container" data-file="three-panel.json" data-section-title="Three Panels Canvas Set" id="panelthree">
+                        3-panels canvas set
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm mt-4">
+                  <div class="h6">Useful links</div>
+                  <ul class="unorder_list">
+                    <li class="mt-5 un_li">
+                      <button class="footer_links btn btn-link nav-go" data-container-id="#qalam-container" data-file="qalam.json" data-section-title="Qalams We Use For Calligraphy" id="qalamsget">
+                        Qalams
+                      </button>
+                    </li>
+                    <li class="mt-3 un_li">
+                      <button class="footer_links btn btn-link nav-go" data-container-id="#arabic-fonts-container" id="arabicget">
+                        Arabic Fonts
+                      </button>
+                    </li>
+                    <li class="mt-3 un_li">
+                      <button class="footer_links btn btn-link nav-go" data-container-id="#western-fonts-container" id="westernget">
+                        Western Fonts
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm mt-4">
+                  <div class="h6">Information</div>
+                  <ul class="unorder_list">
+                    <li class="mt-5 un_li">
+                      <button class="footer_links btn btn-link nav-go" data-container-id="#about" id="aboutget">
+                        About Us
+                      </button>
+                    </li>
+                    <li class="mt-3 un_li">
+                      <button class="footer_links btn btn-link nav-go" data-container-id="#faq-container" id="faqget">
+                        FAQ
+                      </button>
+                    </li>
+                    <li class="mt-3 un_li">
+                      <button class="footer_links btn btn-link">
+                        Terms & Conditions
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- footer end -->
+      </div>
+    </main>
+    <script src="./assets/js/jquery-3.5.1.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/faq.js"></script>
+    <script src="./assets/js/functions.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
